@@ -6,9 +6,7 @@ import Testimonials from './components/Testimonials/Testimonials'
 const App = () => {
   return (
     <>
-    <HeroSection 
-      title= 
-      description="The Swahili are not a “tribe” in any definable sense..."/>
+    <HeroSection/>
       <main id="main">
         <HomeSection/>
         <CallToAction/>

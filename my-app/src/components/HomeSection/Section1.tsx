@@ -1,12 +1,7 @@
 import React from 'react';
+import { features } from '../../data/homeSectionData';
 
 const Section1: React.FC = () => {
-  const features = [
-    { icon: "bi bi-people", title: "Explore Your Team", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." },
-    { icon: "bi bi-brightness-high", title: "Digital Whiteboard", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." },
-    { icon: "bi bi-bar-chart", title: "Design To Development", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." }
-  ];
-
   return (
     <section className="section">
       <div className="container">
@@ -15,7 +10,6 @@ const Section1: React.FC = () => {
             <h2 className="section-heading">Save your time to using MaliCul</h2>
           </div>
         </div>
-
         <div className="row">
           {features.map((feature, index) => (
             <div key={index} className="col-md-4" data-aos="fade-up" data-aos-delay={index * 100}>

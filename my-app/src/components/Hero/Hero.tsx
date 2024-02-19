@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
                   {HeroData.description}
                 </p>
                 <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500">
-                  <a href="#" className="btn btn-outline-white">
+                  <a href="/home" className="btn btn-outline-white" title='ctaBtn'>
                     Get started
                   </a>
                 </p>
