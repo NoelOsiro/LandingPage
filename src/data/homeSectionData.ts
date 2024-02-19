@@ -42,5 +42,35 @@ const sections: SectionProps[] = [
     btnLink: "#",
     imgAlignment: "right",
     animation: "fade-right"
+  },
+  {
+    title: "Preserve History",
+    description: "Explore and contribute to the digital archive of Malindi's cultural artifacts, historical events, and traditional practices. Be part of the effort to preserve our heritage for future generations.",
+    buttonText: "Start Preserving",
+    imgSrc: "https://source.unsplash.com/random/1/?malindi",
+    imgAlt: "Preserve History Image",
+    btnLink: "#",
+    imgAlignment: "left",
+    animation: "fade-left"
+  },
+  {
+    title: "Virtual Discovery",
+    description: "Embark on virtual tours, uncovering the unique cultural aspects of Malindi. Immerse yourself in multimedia content that brings the rich history and traditions of the Swahili Coast to life.",
+    buttonText: "Begin Exploring",
+    imgSrc: "https://source.unsplash.com/random/1/?coralreef",
+    imgAlt: "Virtual Discovery Image",
+    btnLink: "#",
+    imgAlignment: "right",
+    animation: "fade-right"
+  },
+  {
+    title: "Community Engagement",
+    description: "Join hands with residents, students, and cultural enthusiasts in actively documenting and preserving Malindi's cultural heritage. Contribute insights, stories, and experiences to enrich the platform.",
+    buttonText: "Get Involved",
+    imgSrc: "https://source.unsplash.com/random/1/?african_community",
+    imgAlt: "Community Engagement Image",
+    btnLink: "#",
+    imgAlignment: "left",
+    animation: "fade-left"
   }
 ];
