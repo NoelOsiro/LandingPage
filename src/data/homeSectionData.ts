@@ -8,17 +8,18 @@ interface SectionProps {
     imgAlignment: "left" | "right";
     animation: "fade-left" | "fade-right";
   }
-export const features = [
-    { icon: "bi bi-people", title: "Explore Your Team", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." },
-    { icon: "bi bi-brightness-high", title: "Digital Whiteboard", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." },
-    { icon: "bi bi-bar-chart", title: "Design To Development", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." }
-  ];
+export  const features = [
+  { icon: "bi bi-people", title: "Explore Malindi's Heritage", text: "Embark on a journey to discover the diverse cultural tapestry of Malindi. Engage with the rich history and traditions that define the Swahili Coast." },
+  { icon: "bi bi-brightness-high", title: "Digital Cultural Archive", text: "Preserve the essence of Malindi's cultural heritage through a digital archive. Safeguard artifacts, historical events, and traditional practices for future generations." },
+  { icon: "bi bi-bar-chart", title: "Community Engagement", text: "Foster active participation from residents, students, and cultural enthusiasts. Contribute insights, stories, and experiences to enrich the platform's documentation process." }
+];
 
 export const steps = [
-    { number: "01", title: "Sign Up", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." },
-    { number: "02", title: "Create Profile", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." },
-    { number: "03", title: "Enjoy the app", text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, optio." }
-  ];
+  { number: "01", title: "Join the Community", text: "Sign up to become an integral part of the Malindi Cultural Heritage Platform. Contribute to the preservation and celebration of our rich cultural tapestry." },
+  { number: "02", title: "Craft Your Narrative", text: "Create a personalized profile to share your unique connection to Malindi's cultural heritage. Add your stories, experiences, and insights to enrich the platform." },
+  { number: "03", title: "Embark on Cultural Exploration", text: "Immerse yourself in the diverse heritage of Malindi. Enjoy interactive features, virtual tours, and multimedia content that bring the Swahili Coast to life." }
+];
+
 
 export 
 const sections: SectionProps[] = [
