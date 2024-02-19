@@ -1,3 +1,7 @@
+import undraw3 from '../assets/img/undraw_svg_3.svg'
+import undraw2 from '../assets/img/undraw_svg_2.svg'
+import undraw1 from '../assets/img/undraw_svg_1.svg'
+
 interface SectionProps {
     title: string;
     description: string;
@@ -21,13 +25,12 @@ export const steps = [
 ];
 
 
-export 
-const sections: SectionProps[] = [
+export const sections: SectionProps[] = [
   {
     title: "Gather Feedback",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.",
     buttonText: "Check Out",
-    imgSrc: "assets/img/undraw_svg_3.svg",
+    imgSrc: undraw3,
     imgAlt: "Image2",
     btnLink: "#",
     imgAlignment: "left",
@@ -37,7 +40,7 @@ const sections: SectionProps[] = [
     title: "Seamlessly Communicate",
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur at reprehenderit optio, laudantium eius quod, eum maxime molestiae porro omnis. Dolores aspernatur delectus impedit incidunt dolore mollitia esse natus beatae.",
     buttonText: "Download Now",
-    imgSrc: "assets/img/undraw_svg_2.svg",
+    imgSrc: undraw2,
     imgAlt: "Image",
     btnLink: "#",
     imgAlignment: "right",
@@ -47,7 +50,7 @@ const sections: SectionProps[] = [
     title: "Preserve History",
     description: "Explore and contribute to the digital archive of Malindi's cultural artifacts, historical events, and traditional practices. Be part of the effort to preserve our heritage for future generations.",
     buttonText: "Start Preserving",
-    imgSrc: "https://source.unsplash.com/random/1/?malindi",
+    imgSrc: undraw2,
     imgAlt: "Preserve History Image",
     btnLink: "#",
     imgAlignment: "left",
@@ -57,7 +60,7 @@ const sections: SectionProps[] = [
     title: "Virtual Discovery",
     description: "Embark on virtual tours, uncovering the unique cultural aspects of Malindi. Immerse yourself in multimedia content that brings the rich history and traditions of the Swahili Coast to life.",
     buttonText: "Begin Exploring",
-    imgSrc: "https://source.unsplash.com/random/1/?coralreef",
+    imgSrc: undraw3,
     imgAlt: "Virtual Discovery Image",
     btnLink: "#",
     imgAlignment: "right",
@@ -67,7 +70,7 @@ const sections: SectionProps[] = [
     title: "Community Engagement",
     description: "Join hands with residents, students, and cultural enthusiasts in actively documenting and preserving Malindi's cultural heritage. Contribute insights, stories, and experiences to enrich the platform.",
     buttonText: "Get Involved",
-    imgSrc: "https://source.unsplash.com/random/1/?african_community",
+    imgSrc: undraw1,
     imgAlt: "Community Engagement Image",
     btnLink: "#",
     imgAlignment: "left",

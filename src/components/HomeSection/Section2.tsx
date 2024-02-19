@@ -1,5 +1,6 @@
 import React from 'react';
 import { steps } from '../../data/homeSectionData';
+import undraw1 from '../../assets/img/undraw_svg_1.svg'
 
 const Section2: React.FC = () => {
   return (
@@ -7,7 +8,7 @@ const Section2: React.FC = () => {
       <div className="container">
         <div className="row justify-content-center text-center mb-5" data-aos="fade">
           <div className="col-md-6 mb-5">
-            <img src="assets/img/undraw_svg_1.svg" alt="features-img" className="img-fluid" />
+            <img src={undraw1} alt="features-img" className="img-fluid" />
           </div>
         </div>
         <div className="row">

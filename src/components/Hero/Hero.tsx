@@ -1,13 +1,14 @@
 import React from 'react';
 import { HeroData } from '../../data/heroData';
 import Wave from '../Wave/Wave';
-
+import Phone1 from '../../assets/img/phone_1.png'
+import Phone2 from '../../assets/img/phone_2.png'
 
 
 const HeroSection: React.FC = () => {
   return (
     <section className="hero-section" id="hero">
-      <Wave width={'100%55px'} height={''}/>
+      <Wave width={'100%'} height={'355px'}/>
 
       <div className="container">
         <div className="row align-items-center">
@@ -25,8 +26,8 @@ const HeroSection: React.FC = () => {
                 </p>
               </div>
               <div className="col-lg-4 iphone-wrap">
-                <img src="assets/img/phone_1.png" alt="Image1" className="phone-1" data-aos="fade-right" />
-                <img src="assets/img/phone_2.png" alt="Image2" className="phone-2" data-aos="fade-right" data-aos-delay="200" />
+                <img src={Phone1} alt="Image1" className="phone-1" data-aos="fade-right" />
+                <img src={Phone2} alt="Image2" className="phone-2" data-aos="fade-right" data-aos-delay="200" />
               </div>
             </div>
           </div>
