@@ -1,11 +1,9 @@
 import React from 'react';
+import { HeroData } from '../../data/heroData';
 
-interface HeroSectionProps {
-  title: string;
-  description: string;
-}
 
-const HeroSection: React.FC<HeroSectionProps> = ({ title, description }) => {
+
+const HeroSection: React.FC = () => {
   return (
     <section className="hero-section" id="hero">
       <div className="wave">
@@ -30,9 +28,9 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title, description }) => {
           <div className="col-12 hero-text-image">
             <div className="row">
               <div className="col-lg-8 text-center text-lg-start">
-                <h1 data-aos="fade-right">{title}</h1>
+                <h1 data-aos="fade-right">{HeroData.title}</h1>
                 <p className="mb-5" data-aos="fade-right" data-aos-delay="100">
-                  {description}
+                  {HeroData.description}
                 </p>
                 <p data-aos="fade-right" data-aos-delay="200" data-aos-offset="-500">
                   <a href="#" className="btn btn-outline-white">

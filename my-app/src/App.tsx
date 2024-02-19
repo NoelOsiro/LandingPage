@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
     <HeroSection 
-      title="Explore and share the Kenyan coast" 
+      title= 
       description="The Swahili are not a “tribe” in any definable sense..."/>
       <main id="main">
         <HomeSection/>

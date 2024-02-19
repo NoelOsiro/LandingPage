@@ -1,6 +1,9 @@
 import React from 'react';
+import { socialLinks, aboutLinks, servicesLinks, downloadLinks } from '../../data/footerData';
 
 const Footer: React.FC = () => {
+  
+
   return (
     <footer className="footer" role="contentinfo">
       <div className="container">
@@ -12,18 +15,9 @@ const Footer: React.FC = () => {
               dolore nam optio dolorem facilis itaque voluptatum recusandae deleniti minus animi.
             </p>
             <p className="social">
-              <a href="#">
-                <span className="bi bi-twitter"></span>
-              </a>
-              <a href="#">
-                <span className="bi bi-facebook"></span>
-              </a>
-              <a href="#">
-                <span className="bi bi-instagram"></span>
-              </a>
-              <a href="#">
-                <span className="bi bi-linkedin"></span>
-              </a>
+              {socialLinks.map((link, index) => (
+                <a key={index} href={link.url} title={link.title}><span className={link.icon}></span></a>
+              ))}
             </p>
           </div>
           <div className="col-md-7 ms-auto">
@@ -31,61 +25,27 @@ const Footer: React.FC = () => {
               <div className="col-md-4 mb-4 mb-md-0">
                 <h3>Navigation</h3>
                 <ul className="list-unstyled">
-                  <li>
-                    <a href="#">Pricing</a>
-                  </li>
-                  <li>
-                    <a href="#">Features</a>
-                  </li>
-                  <li>
-                    <a href="#">Blog</a>
-                  </li>
-                  <li>
-                    <a href="#">Contact</a>
-                  </li>
+                  {aboutLinks.map((link, index) => (
+                    <li key={index}><a href={link.url}>{link.title}</a></li>
+                  ))}
                 </ul>
               </div>
               <div className="col-md-4 mb-4 mb-md-0">
                 <h3>Services</h3>
                 <ul className="list-unstyled">
-                  <li>
-                    <a href="#">Team</a>
-                  </li>
-                  <li>
-                    <a href="#">Collaboration</a>
-                  </li>
-                  <li>
-                    <a href="#">Todos</a>
-                  </li>
-                  <li>
-                    <a href="#">Events</a>
-                  </li>
+                  {servicesLinks.map((link, index) => (
+                    <li key={index}><a href={link.url}>{link.title}</a></li>
+                  ))}
                 </ul>
               </div>
               <div className="col-md-4 mb-4 mb-md-0">
                 <h3>Downloads</h3>
                 <ul className="list-unstyled">
-                  <li>
-                    <a href="#">Get from the App Store</a>
-                  </li>
-                  <li>
-                    <a href="#">Get from the Play Store</a>
-                  </li>
+                  {downloadLinks.map((link, index) => (
+                    <li key={index}><a href={link.url}>{link.title}</a></li>
+                  ))}
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row justify-content-center text-center">
-          <div className="col-md-7">
-            <p className="copyright">&copy; Copyright MaliCul. All Rights Reserved</p>
-            <div className="credits">
-              {/* All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MaliCul */}
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
         </div>
