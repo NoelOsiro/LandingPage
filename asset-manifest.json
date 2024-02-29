@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/LandingPage/static/js/main.18adcea5.js",
+    "static/js/453.ed3810f9.chunk.js": "/LandingPage/static/js/453.ed3810f9.chunk.js",
+    "static/media/phone2.jpg": "/LandingPage/static/media/phone2.59532583c815aa373ddc.jpg",
+    "static/media/phone1.jpg": "/LandingPage/static/media/phone1.0176eaf24ab16bf35b07.jpg",
+    "static/media/undraw_svg_3.svg": "/LandingPage/static/media/undraw_svg_3.51a05083237c4b4995a9f93d480cfa97.svg",
+    "static/media/undraw_svg_2.svg": "/LandingPage/static/media/undraw_svg_2.9c6c3050677e11f43dfbe6c70c6876bd.svg",
+    "static/media/undraw_svg_1.svg": "/LandingPage/static/media/undraw_svg_1.861a715d16c63667d5a707a75d63200f.svg",
+    "index.html": "/LandingPage/index.html",
+    "main.18adcea5.js.map": "/LandingPage/static/js/main.18adcea5.js.map",
+    "453.ed3810f9.chunk.js.map": "/LandingPage/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.18adcea5.js"
+  ]
+}
