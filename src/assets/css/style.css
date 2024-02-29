@@ -931,6 +931,7 @@ section {
 
 .hero-section .iphone-wrap .phone-2,
 .hero-section .iphone-wrap .phone-1 {
+ 
   position: absolute;
   top: -50%;
   overflow: hidden;

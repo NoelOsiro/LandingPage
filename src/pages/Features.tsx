@@ -18,7 +18,7 @@ const Feature: React.FC = () => {
               <div className="row justify-content-center">
                 <div className="col-md-7 text-center hero-text">
                   <h1 data-aos="fade-up" data-aos-delay="">MaliCul Features</h1>
-                  <p className="mb-5" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p className="mb-5" data-aos="fade-up" data-aos-delay="100">Discover Malindi's Coastal Charm with Malicul: Events, Heritage, Tours, and Community Engagement – Your Swahili Coast Connection</p>
                 </div>
               </div>
             </div>

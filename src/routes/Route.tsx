@@ -3,6 +3,7 @@ import RootLayout from "./RootLayout";
 import App from "../pages/App";
 import Contact from "../pages/Contact";
 import Feature from "../pages/Features";
+import BlogPage from "../pages/Blog";
 
 export const router = createBrowserRouter([
     {
@@ -11,7 +12,7 @@ export const router = createBrowserRouter([
         errorElement: <div>Error page goes here</div>,
         children: [
             {
-              path: "home",
+              path: "/",
               element: <App/>,
             },
             {
@@ -24,7 +25,7 @@ export const router = createBrowserRouter([
             },
             {
               path: "blog",
-              element: <App/>,
+              element: <BlogPage/>,
             },
           ],
     },

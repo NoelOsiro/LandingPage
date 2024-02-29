@@ -5,8 +5,8 @@ import Wave from '../components/Wave/Wave'
 
 const Contact = () => {
   return (
-    <main id="main">
 
+    <>
       <section className="hero-section inner-page">
         <Wave width={'1920px'} height={'265px'} />
         <div className="container">
@@ -41,11 +41,11 @@ const Contact = () => {
               <ul className="list-unstyled">
                 <li className="mb-3">
                   <strong className="d-block mb-1">Address</strong>
-                  <span>203 Fake St. Mountain View, San Francisco, California, USA</span>
+                  <span>Lamu Road Malindi Complex</span>
                 </li>
                 <li className="mb-3">
                   <strong className="d-block mb-1">Phone</strong>
-                  <span>+1 232 3235 324</span>
+                  <span>+254 729 732 441</span>
                 </li>
                 <li className="mb-3">
                   <strong className="d-block mb-1">Email</strong>
@@ -96,7 +96,7 @@ const Contact = () => {
       <Testimonials />
       <CallToAction />
 
-    </main>
+    </>
   )
 }
 

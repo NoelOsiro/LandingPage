@@ -1,8 +1,8 @@
 import React from 'react';
 import { HeroData } from '../../data/heroData';
 import Wave from '../Wave/Wave';
-import Phone1 from '../../assets/img/phone_1.png'
-import Phone2 from '../../assets/img/phone_2.png'
+import Phone1 from '../../assets/img/phone1.jpg'
+import Phone2 from '../../assets/img/phone2.jpg'
 
 
 const HeroSection: React.FC = () => {
@@ -26,8 +26,8 @@ const HeroSection: React.FC = () => {
                 </p>
               </div>
               <div className="col-lg-4 iphone-wrap">
-                <img src={Phone1} alt="Image1" className="phone-1" data-aos="fade-right" />
-                <img src={Phone2} alt="Image2" className="phone-2" data-aos="fade-right" data-aos-delay="200" />
+                <img src={Phone2} alt="Image1" className="phone-1" data-aos="fade-right" />
+                <img src={Phone1} alt="Image2" className="phone-2" data-aos="fade-right" data-aos-delay="200" />
               </div>
             </div>
           </div>
