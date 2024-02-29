@@ -4,8 +4,8 @@ interface Link {
 }  
 
 export   const links: Link[] = [
-    { title: "Home", url: "/home" },
-    { title: "Features", url: "/features" },
-    { title: "Blog", url: "/blog" },
-    { title: "Contact Us", url: "/contact" }
+    { title: "Home", url: "/" },
+    { title: "Features", url: "/#features" },
+    { title: "Blog", url: "/#blog" },
+    { title: "Contact Us", url: "/#contact" }
   ];

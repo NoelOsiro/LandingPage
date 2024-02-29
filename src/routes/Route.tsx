@@ -16,7 +16,7 @@ export const router = createHashRouter([
               element: <App/>,
             },
             {
-              path: "contact",
+              path: "/contact",
               element: <Contact/>,
             },
             {
